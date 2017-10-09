@@ -22,8 +22,9 @@ public class Arrow extends JButton
         BufferedImage bi = null;
         try
 		{
-			bi = ImageIO.read(new File("/SMB/13699/hs2.lan.summit.k12.nj.us/students/13699/Desktop/Arrow.png"));
-		}
+			//bi = ImageIO.read(new File("/SMB/13699/hs2.lan.summit.k12.nj.us/students/13699/Desktop/Arrow.png"));
+	
+bi = ImageIO.read(new File("Arrow.png"));	}
 		catch(IOException e)
 		{
             System.out.println("could not read image in");
